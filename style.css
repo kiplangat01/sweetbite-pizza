@@ -1,0 +1,38 @@
+body{
+    font-family: sans-serif;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    padding: 0;
+}
+.img1{
+    border: 2px solid black;
+}
+.img2{
+    border: 2px solid black;
+}
+
+.img3{
+    border: 2px solid black;
+
+}
+
+.box{
+    position: relative;
+    text-align: center;
+   }
+
+   .img1 img{
+    max-width: 50%; 
+   
+   }
+
+   .img2 img{
+    max-width: 50%; 
+  
+   }
+
+   .img3 img{
+    max-width: 50%; 
+    
+   }
