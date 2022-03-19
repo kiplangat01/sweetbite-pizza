@@ -84,3 +84,14 @@ h5{
     color: white;
     border-radius: 30px;
 }
+
+i{
+    color: rgb(255, 187, 0);
+    font-size: 30px;
+}
+
+i:hover {
+    color: rgb(173, 38, 78);
+
+    
+  }
