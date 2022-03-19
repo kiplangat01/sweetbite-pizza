@@ -5,34 +5,55 @@ body{
     width: 100%;
     padding: 0;
 }
-.img1{
-    border: 2px solid black;
+
+/* backgroung for introduction */
+
+.intro{
+    background-image: url("./images/bgpizza.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
 }
-.img2{
-    border: 2px solid black;
+
+ a:hover {
+    background-color: yellow;
+  }
+
+.link{
+   font-weight: bold;
+    color: rgb(238, 142, 17);
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 10px;
 }
 
-.img3{
-    border: 2px solid black;
-
+.our-name{
+    color: white;
+    text-align: right; 
+    padding-right: 300px;
+    padding-top: 50px; 
+    padding-bottom : 30px;
 }
 
-.box{
-    position: relative;
-    text-align: center;
-   }
+.name{
+  font-size: 100px;
+  font-family: 'Inspiration', cursive;
+}
 
-   .img1 img{
-    max-width: 50%; 
-   
-   }
+.pizza{
+    font-style: italic;
+    text-shadow: 4px 4px white;
+    font-size: 150px;
+    border-radius: 20px;
+    color: red;
+    font-family: 'Inspiration', cursive;
+    margin-right: -50px;
+    font-weight: bold;
+}
 
-   .img2 img{
-    max-width: 50%; 
-  
-   }
-
-   .img3 img{
-    max-width: 50%; 
-    
-   }
+.links{
+    text-align: right;
+    padding: 10px;
+}
