@@ -54,7 +54,7 @@
 
         <h3>
             <b class="text-center">
-                our special dishes
+                our <span style="color: brown;">special</span> dishes
             </b>
         </h3>
         <h4> crispy pizza</h4>
@@ -110,9 +110,11 @@
                         <button>Add to cart</button>
                     </div>
                 </div>
+                <br>
 
                 <!-- crispy ends -->
                 <!-- glutten start -->
+
                 <h4 class="p-4"> glutten pizza </h4>
                 <div class=" border box col-sm-4">
                      <h5>sh540=/</h5>
@@ -230,24 +232,27 @@
    
 
                         <section class="container-fluid contact-bg">
-                           <h4 class="text-center  p-3"><b>CONTACT US</b></h4>
+                           <h4 class="text-left"><b>CONTACT US</b></h4>
                            <form action="https://formspree.io/f/meqnzaoz" id="form" method="post" class="p-3" required id="form">
                                <div class="form-group form-inline m-3">
                                    <label for="name" class="p-3">
+                                       
                                        <input class="form-control" type="text" name="name" id="name" required placeholder="Enter Name">
-                                   </label>
+                                   </label> <br>
                                    <label for="email" class="p-3">
-                                     <input class="form-control"   id="email" required placeholder="Enter Email">
+                                     <input class="form-control"   id="email" required placeholder="location">
                                    </label>
                                </div>
-                               <div class="form-group m-3">
-                                   <label for="message">
-                                       <textarea class="form-control" name="Message" required id="message" rows="8"
-                                           placeholder="Enter Message"></textarea>
-                                   </label>
-                               </div>
+                               <div class="payment">
+                                   <h6><b>form of payement</b></h6>
+                                   <p><input type="radio" name="question3" value="javascript"><img src="./images/mpesa.png" width="10%"></p>
+                                   <p><input type="radio" name="question3" value="while"><img src="./images/airtel.png" width="10%"></p>
+                                   <p><input type="radio" name="question3" value="else">cash on delivery</p>
+                            </div>
+
+                            
                              
-                         <button type="submit" id="submit"  class="btn btn-primary">submit</button>
+                         <button type="submit" id="submit"  class="btn btn-primary">complete your order</button>
                          <p id="my-form-status"></p>
                        </form>
                      </div>

@@ -69,9 +69,11 @@ h4{
     border-radius: 30px;
     text-align: center;
     margin: 20px;
+    margin-left: 100px;
     width: 350px;
     height: 500px;
     background-color: rgb(241, 243, 233);
+    box-shadow: 5px 5px 25px 25px #888888;
 }
 
 h5{
@@ -99,4 +101,16 @@ i:hover {
     background-position: center;
     background-repeat: no-repeat;
     color: white;
+}
+/* for all buttons */
+
+button{
+    background-color: rgb(255, 102, 0);
+    margin-top: 20px;
+    padding: 6px;
+    border: 0;
+    color: white;
+}
+button:hover{
+    background-color: red;
 }
