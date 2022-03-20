@@ -74,8 +74,8 @@ $(document).ready(function(){
             let area = $("input#place").val();
     
             if ($("input#name").val() && $("input#phone").val() && $("input#place").val()!=""){
-               alert ("hello" + " " + customer + "we have received your order your total cost is" + " " 
-               + newCost + "the product will be delivered to" + area)
+               alert ("hello" + " " + customer +" " + "we have received your order your total cost is" + " " 
+               + newCost + " " + "the product will be delivered to" + " " + area + " " + "thanks for choosing to shop with us")
               }
               else {
                 alert("Please fill in the details for delivery!");

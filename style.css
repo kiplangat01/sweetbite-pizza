@@ -170,3 +170,15 @@ select{
 .yes{
     height: 150px;
 }
+
+#place{
+    width: 220px;
+    margin-left: 600px;
+}
+#name{
+    margin-left: 590px;
+}
+#phone{
+    margin-left: 600px;
+    width: 220px;
+}
