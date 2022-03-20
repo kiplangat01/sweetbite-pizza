@@ -166,3 +166,7 @@ select{
 .yes, #form2{
    display: none;
 }
+
+.yes{
+    height: 150px;
+}
