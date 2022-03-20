@@ -114,3 +114,43 @@ button{
 button:hover{
     background-color: red;
 }
+
+.about{
+    background-color: aliceblue;
+    font-weight: bold;
+    font-size: 20px;
+    border: 1px solid #888888 ;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 10px;
+}
+.contact{
+    margin-top: 30px;
+    font-size: 30px;
+    word-spacing: 30px;
+}
+.contact i{
+    word-spacing: 40px;
+    color: rgb(20, 3, 77);
+}
+
+.contact i:hover {
+    color: rgb(255, 123, 0);
+  }
+
+  .contact .fa-youtube{
+      color: red;
+  }
+
+  .contact .fa-twitter{
+    color: rgb(0, 183, 255);
+}
+.contact .fa-facebook{
+    color: rgb(57, 169, 235);
+}
+.contact .fa-instagram{
+    color: rgb(167, 41, 83);
+}
+.contact .fa-linkedin{
+    color: blue;
+}
