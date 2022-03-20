@@ -154,3 +154,15 @@ button:hover{
 .contact .fa-linkedin{
     color: blue;
 }
+
+select{
+    font-size: large;
+}
+#name{
+    width: fit-content;
+    margin-left: 570px;
+}
+
+.yes, #form2{
+   display: none;
+}

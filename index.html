@@ -75,7 +75,7 @@
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star-half-stroke"></i>
                         <br>
-                        <button id="option1">Add to cart</button>
+                        
                     </div>
                 </div>
 
@@ -91,7 +91,7 @@
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star-half-stroke"></i>
                         <br>
-                        <button id="option2">Add to cart</button>
+                        
                     </div>
                 </div>
                 <div class=" border  box col-sm-4">
@@ -106,7 +106,7 @@
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star-half-stroke"></i>
                         <br>
-                        <button id="option3">Add to cart</button>
+                       
                     </div>
                 </div>
                 <br>
@@ -127,7 +127,7 @@
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star-half-stroke"></i>
                         <br>
-                        <button id="option4">Add to cart</button>
+                        
                     </div>
 
 
@@ -144,7 +144,7 @@
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star-half-stroke"></i>
                          <br>
-                        <button id="option5">Add to cart</button>
+                       
                     </div>
 
                 </div>
@@ -160,7 +160,7 @@
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star-half-stroke"></i>
                         <br>
-                        <button id="option6">Add to cart</button>
+                       
                     </div>
 
                     <br>
@@ -183,7 +183,7 @@
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star-half-stroke"></i>
                         <br>
-                        <button id="option7">Add to cart</button>
+                        
                     </div>
 
                 </div>
@@ -199,7 +199,7 @@
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star-half-stroke"></i>
                         <br>
-                        <button id="option8">Add to cart</button>
+                       
                     </div>
 
                 </div>
@@ -215,7 +215,7 @@
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star-half-stroke"></i>
                         <br>
-                        <button id="option9" value="1850">Add to cart</button>
+                       
                     </div>
 
                     <!-- stuffed ends -->
@@ -244,29 +244,72 @@
                         
                         <section class="container-fluid img-fluid">
                            <h4 class="text-left"><b>complete your order</b></h4>
-                           <form action="https://formspree.io/f/meqnzaoz" id="form" method="post" class="p-3" required id="form">
+                           <form action=""  class="p-3" required id="form">
                                <div class="form-group form-inline m-3">
                                    <label for="name" class="p-3">
-                                       
-                                       <input class="form-control" type="text" name="name" id="name" required placeholder="Enter Name">
-                                   </label> <br>
-                                   <label for="email" class="p-3">
-                                     <input class="form-control"   id="location" required placeholder="location">
-                                   </label>
+                                       <select name="" id="toppings">
+                                           <option value="350">crispy small</option>
+                                           <option value="790">crispy medium</option>
+                                           <option value="1350">crispy large</option> 
+                                       </select>
+                                       <br>
+                                       <br>
+                                       <select name="" id="">
+                                        <option value="550">glutten small</option>
+                                        <option value="950">glutten medium</option>
+                                        <option value="1550">glutten large</option> 
+                                    </select>
+                                       <br>
+                                       <br>
+                                    <select name="" id="">
+                                        <option value="650">staffed small</option>
+                                        <option value="1050">stuffed medium</option>
+                                        <option value="1850">staffed large</option> 
+                                    </select>
+                                    <br>
+                                    <br>
+
+                                    <select name="" id="">
+                                        <option value="50">toppings1</option>
+                                        <option value="150">toppings2</option>
+                                        <option value="850">toppings3</option> 
+                                    </select>
+                                        <br>
+                                      
                                </div>
-                               <div class="payment">
+                               <!-- <div class="payment">
                                    <h6><b>form of payement</b></h6>
                                    <p><input type="radio" name="payment" value="javascript"><img src="./images/mpesa.png" width="10%"></p>
                                    <p><input type="radio" name="payment" value="while"><img src="./images/airtel.png" width="10%"></p>
                                    <p><input type="radio" name="payment" value="else"><span style="color: brown;">cash on delivery</span></p>
-                            </div>
-
+                            </div> -->
+                           <br>
+                                       <!-- <input class="form-control" type="text" name="name" id="name" required placeholder="Enter Name">
+                                   </label> <br>
+                                   <label for="email" class="p-3">
+                                     <input class="form-control"   id="location" required placeholder="location">
+                                   </label>
+                                   <br> -->
                              
-                         <button type="submit" id="submit"  class="btn btn-primary">complete your order</button>
+                         <button type="submit" id="deliver"  class="btn btn-primary">place order</button>
 
                        </form>
                      </div>
-              
+              <div class="yes">
+                <p>would like the product to be delivered to your place</p>
+                <button id="yes">yes</button>
+                <button id="no">no</button>
+              </div>
+
+             <form id="form2" action="">
+                <div class="form-group">
+                    <input type="text" id="name" class="form-control mb-3" value="" placeholder="Your name..." required>
+                    <input type="number" id="phone" class="form-control mb-3" value="" placeholder="Functioning phone number" required>
+                    <input type="text" id="place" class="form-control mb-3" value="" placeholder="where are you located?" required>
+                    <button id="finalorder" onclick="amount()">Order</button>
+                  </div>
+             </form>
+
             </div>
      <span class="container-fluid" style="font-size: 30px;">research out to us through social media </span><br> 
             <div class="contact container-fluid">
