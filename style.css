@@ -201,3 +201,9 @@ select{
     text-decoration: none;
     font-weight: bold;
 }
+
+select{
+    padding: 10px;
+    background-color: coral;
+    border-radius: 20px;
+}
