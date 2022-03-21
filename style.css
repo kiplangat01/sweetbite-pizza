@@ -183,8 +183,8 @@ select{
     width: 220px;
 }
 
-#ok{
-    padding: 150px;
+.pad{
+    padding: 0px;
     color: red;
 }
 
@@ -194,4 +194,10 @@ select{
     padding: 10px;
     border-radius: 10px;
     margin-bottom: 30px;
+}
+
+.make{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
 }
