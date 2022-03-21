@@ -29,7 +29,7 @@ $(document).ready(function(){
         // alert(totalCost)
     
        
-        $("#ok").append("your total ammount is"  + " " + totalCost );
+        $("#ok").append("your total ammount is"  + " " + totalCost + " " + "you can pick your product at any branch of sweetbite pizza" );
         
     })
     $("#no").click(function(){
