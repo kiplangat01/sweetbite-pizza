@@ -182,3 +182,16 @@ select{
     margin-left: 600px;
     width: 220px;
 }
+
+#ok{
+    padding: 150px;
+    color: red;
+}
+
+.change{
+    background-color: rgb(30, 112, 145);
+    color: black;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
