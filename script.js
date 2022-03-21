@@ -78,7 +78,7 @@ $(document).ready(function(){
                + newCost + " " + "the product will be delivered to" + " " + area + " " + "thanks for choosing to shop with us")
               }
               else {
-                alert("Please fill in the details for delivery!");
+                alert("Please fill in your delivery details");
                
               }
         
