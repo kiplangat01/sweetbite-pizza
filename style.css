@@ -207,3 +207,7 @@ select{
     background-color: coral;
     border-radius: 20px;
 }
+ .note{
+     color: red;
+     font-size: 15px;
+ }
